@@ -1,0 +1,58 @@
+{
+  "name": "mentorship",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^4.1.1",
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-native-community/datetimepicker": "^7.7.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "axios": "^1.8.4",
+    "expo": "~51",
+    "expo-asset": "^11.0.4",
+    "expo-auth-session": "~5.4.0",
+    "expo-image-picker": "^14.7.1",
+    "expo-linear-gradient": "^12.7.2",
+    "expo-status-bar": "~1.11.1",
+    "jwt-decode": "3.1.2",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-native": "^0.73.11",
+    "react-native-action-sheet": "^2.2.0",
+    "react-native-animatable": "^1.4.0",
+    "react-native-app-intro-slider": "^4.0.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-element-dropdown": "^2.12.4",
+    "react-native-elements": "^3.4.3",
+    "react-native-emoji-selector": "^0.2.0",
+    "react-native-flash-message": "^0.4.2",
+    "react-native-image-crop-picker": "^0.40.3",
+    "react-native-image-picker": "^7.2.3",
+    "react-native-modal": "^13.0.2",
+    "react-native-modal-datetime-picker": "^17.1.0",
+    "react-native-reanimated": "~3.6.3",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-toast-message": "^2.2.1",
+    "react-native-vector-icons": "^10.2.0",
+    "twrnc": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.3.2"
+  },
+  "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "react-native-elements"
+    ]
+  }
+}
